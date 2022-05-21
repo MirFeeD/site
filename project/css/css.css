@@ -5,6 +5,9 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
   }
+  .ln{
+    color:aqua
+  }
   .container-fluid{
     height: 100%;
     margin: 0;
@@ -99,16 +102,17 @@ body {
     transition: .5;
     font-size: 15px;
     margin-left:16px;
+    margin-right: 16px;
   }
   nav ul li:hover a{
     text-decoration: none;
     color: #591BC5;;
   }
   nav ul li:hover{
-    height: 45px;
-    padding-top: 30px;
-    margin-top: -30px;
-   background: #EFEEF5;
+    height: 25px;
+    padding-top: 10px;
+    margin-top: -10px;
+    background: #EFEEF5;
     text-decoration: none;
     transform: skew(15deg);
   }
@@ -148,7 +152,6 @@ body {
     font-family: Comfortaa, 'Comic Sans MS', cursive;
     font-size: 20px;
     line-height: 1.5;
-    margin: 20px auto;
   }
   .header-content button{
     width: 140px;
@@ -182,7 +185,6 @@ body {
     font-family: Comfortaa, 'Comic Sans MS', cursive;
     font-size: 20px;
     line-height: 1.5;
-    margin: 20px auto;
   }
   .header-content2 button{
     width: 140px;
@@ -222,3 +224,9 @@ body {
       opacity: 0;
     }
   }
+
+.flex-container {
+
+  display: flex;
+
+}
