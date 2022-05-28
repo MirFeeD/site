@@ -21,7 +21,7 @@ body {
     background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
     position: relative;
-    height: 500vh;
+    height: 550vh;
     width: 100%;
     overflow: hidden;
     padding:0;
@@ -181,6 +181,11 @@ body {
     font-size: 3em;
     letter-spacing: 1px;
   }
+  .header-content2 h2 {
+    font-family: Comfortaa, 'Comic Sans MS', cursive;
+    font-size: 22px;
+    line-height: 1.5;
+  }
   .header-content2 p {
     font-family: Comfortaa, 'Comic Sans MS', cursive;
     font-size: 20px;
@@ -202,6 +207,22 @@ body {
   .header-content2 button:hover{
     border-radius: 10px;
   }
+  .header-content2 li{
+    font-size: 20px;
+  }
+  .right {
+    position: absolute;
+    right: 3%;
+  }
+  .right-text{
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20em;
+  }
+  .left{
+    margin-left: 5%;
+  }
+
   /* Animate Background*/
   @keyframes Gradient {
     0% {
@@ -226,7 +247,6 @@ body {
   }
 
 .flex-container {
-
   display: flex;
 
 }
